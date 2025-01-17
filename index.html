@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>How to build a Web Page</title>
+</head>
+<body>
+    <nav id="navbar">
+      <header>
+        <p>In this document i'll give you a very basic introduction in how to build a web page with HTML and CSS.</p>
+      </header>
+      <ul>
+        <li><a class="nav-link" href="#introduction" class="nav-link">Introduction</a></li>
+        <li><a class="nav-link"  href="#basic_structure" class="nav-link">Basic Structure</a></li>
+        <li><a class="nav-link"  href="#order" class="nav-link">Order</a></li>
+        <li><a class="nav-link"  href="#css" class="nav-link">CSS</a></li>
+        <li><a class="nav-link"  href="#useful_links" class="nav-link">Useful Links</a></li>
+      </ul>
+    </nav>
+  <main id="main-doc">
+    <h1>How to build Web Page</h1>
+    <section class="main-section" id="introduction">
+      <header>
+  <h2>Introduction<h2>
+      </header>
+      <article>
+        <p>Nowadays everyone needs a web page. Wether it's for your business, school, exposition, shopping, etc. Web development can look scary at first sight, but really isn't.</p>
+        <p>In this short technical documentation i'll show you the basics that you need to start.</p>
+        <p>It's important that you understand the holy trinity of Web Development:</p>
+        <ul>
+          <li><strong>HTML:</strong> This is the vertebral column, it gives the basic structure of the page.</li>
+          <li><strong>CSS:</strong> This is what gives the web it's style, like colors, sizes, bordes, decorations, etc.</li>
+          <li><strong>JavaScript:</strong> This is the page soul. With this you can make the page dinamic with animations.</li>
+      </article>
+    </section>
+    <hr>
+    <section class="main-section" id="basic_structure">
+      <header>
+        <h2>Basic structure</h2>
+      </header>
+      <article>
+        <p>The basic structure of an HTML has a set of elements with certain purpouses.</p>
+        <p>Every HTML has to start with a DOCTYPE declaration to tell the navegator that the page is built in HTML5, wich is the newest version. The way you do it like this:</p>
+        <p><code>< !DOCTYPE html ></code></p>
+        <p>Then you have the html itself, with an opening and closing tags, like this:</p>
+        <p><code>< html > < / html ></code></p>
+        <p>Then, inside the html tags, you have to nest two more tags:</p>
+        <p><code>< head > < / head ></code></p>
+        <p><code>< body > < / body ></code></p>
+        <p>The content inside the <strong>head</strong> element is not visible for the user, but it contains important information for the navegator about the page, like it's title, the tipe of codification, links to stylesheet, etc.</p>
+        <p>The <strong>body</strong> tag contains all the visible content of the page.</p>
+        <p>Lastly, inside the <strong>body</strong> tag, we'll divide our content in three containers:</p>
+        <p><code>< header > < / header ></code></p>
+        <p><code>< main > < / main ></code></p>
+        <p><code>< footer > < / footer ></code></p>
+        <p>Inside the <strong>header</strong> tag we usually put stuff like the title and navigation bar.</p>
+        <p>Inside the <strong>main</strong> tag we usually put main content of the page, like subtitles, articles, images, videos, links, etc.</p>
+        <p>Lastly, inside the <strong>footer</strong> tag we usually put contact info, addresses, author's name, links to social media, etc.</p>
+      </article>
+    </section>
+    <hr>
+    <section class="main-section" id="order">
+      <header>
+        <h2>Order</h2>
+      </header>
+      <article>
+        <p>To keep an understandable order of the html structure, its important that we indent those tags that are sons of their parents tags (that are inside other) this is called <strong>NESTING</strong>.</p>
+      </article>
+    </section>
+    <hr>
+    <section class="main-section" id="css">
+      <header>
+        <h2>CSS</h2>
+      </header>
+      <article>
+        <p>Css is the way we style our web page. In here we tell the page how to show us the content, what sizes, what colors, what styles.<p>
+      </article>
+    </section>
+    <hr>
+    <section class="main-section" id="useful_links">
+      <header>
+        <h2>Useful links</h2>
+      </header>
+      <article>
+        <p>As I said before, this is a very basic explanation for you only to have a basic notion of web development. If you are interested in actually learning, i can list you here a few useful resources. To find more you can search for programming bootcamps, there are tons of them on the internet.</p>
+        <ul>
+          <li><a href="https://www.freecodecamp.org/learn">freeCodeCamp</a>: In this page you can learn trough excersices.</li>
+          <li><a href="https://cs50.harvard.edu/x/2025/">cs50</a>: In this page you can do a bootcamp made from Harvard. It's free, but if you want to get certificated you need to pay.</p></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
